@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50% , -50%);
     width: 360px;
-    background-color: wheat;
+    background-color: #b7b7e5;
     padding: 1rem;
     border-radius: 6px;
 }
@@ -13,8 +13,8 @@
     flex-direction: column;
 }
 .auth_item label{
-    color: gray;
-    font-size: 14px;
+    color: black;
+    font-size: 16px;
     font-weight: 500;
 }
 .auth_container{
@@ -40,12 +40,12 @@
 
 }
 .auth_heading{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .auth_title{
-    font-size: 20px;
-    color: gray;
+    font-size: 22px;
+    color: black;
 }
 .auth_options{
     display: flex;

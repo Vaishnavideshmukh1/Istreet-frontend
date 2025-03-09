@@ -76,23 +76,41 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #f5d6fa, #f3cef5);
+  background: linear-gradient(135deg, #1e1f5d, #f3cef5);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home-container {
+/* .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
   animation: fadeIn 2s ease-in-out;
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('C:\Users\DELL\Downloads\Frontend-main\Frontend-main\public\home.jpeg') no-repeat center center/cover;
+  position: fixed; /* Ensure it covers everything */
+  top: 0;
+  left: 0;
 }
 
-.home-content {
+/* .home-content {
   max-width: 600px;
   padding: 30px;
   background: rgba(0, 0, 0, 0.6);
@@ -101,6 +119,17 @@ body {
   text-align: center;
   transform: translateY(50px);
   animation: slideUp 1s ease-out forwards;
+} */
+
+.home-content {
+max-width: 600px;
+    padding: 30px;
+    background: #b7b7e5;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: translateY(50px);
+    animation: slideUp 1sease-out forwards;
 }
 
 h1 {
@@ -140,7 +169,7 @@ p {
 }
 
 .register-btn {
-  background-color: #ff7b54;
+  background-color: #12113e;
   color: white;
   box-shadow: 0 4px 10px rgba(255, 123, 84, 0.3);
   animation: buttonHover 0.5s infinite alternate;
@@ -151,8 +180,8 @@ p {
   box-shadow: 0 6px 15px rgba(255, 87, 34, 0.4);
 }
 
-.login-btn {
-  background-color: #4caf50;
+.login-btn {  
+    background-color: #12113e;
   color: white;
   box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
   animation: buttonHover 0.5s infinite alternate 0.2s;
